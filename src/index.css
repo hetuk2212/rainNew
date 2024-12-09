@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    body {
+      @apply font-barlow; /* Apply the Barlow font globally */
+    }
+  }
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
